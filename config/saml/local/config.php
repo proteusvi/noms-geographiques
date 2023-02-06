@@ -131,7 +131,7 @@ $config = [
    * A possible way to generate a random salt is by running the following command from a unix shell:
    * LC_CTYPE=C tr -c -d '0123456789abcdefghijklmnopqrstuvwxyz' </dev/urandom | dd bs=32 count=1 2>/dev/null;echo
    */
-  'secretsalt' => 'iouefgsdgd456h4dfh45sfhrdth56qdfgd56sg4fsd35gh4dfhdsh4680gd',
+  'secretsalt' => '',
 
   /*
    * This password must be kept secret, and modified from the default value 123.
@@ -1190,13 +1190,13 @@ $config = [
    * See http://www.php.net/manual/en/pdo.drivers.php for the various
    * syntaxes.
    */
-//  'store.sql.dsn'                 => 'mysql:host=db-dev-1.ceti.etat-ge.ch;port=3306;dbname=php_1050301inzto',
+//  'store.sql.dsn'                 => '',
 
   /*
    * The username and password to use when connecting to the database.
    */
-//  'store.sql.username' => '1050301inzto_usr',
-//  'store.sql.password' => 'zedtehaut_38',
+//  'store.sql.username' => '',
+//  'store.sql.password' => '',
 
   /*
    * The prefix we should use on our tables.
